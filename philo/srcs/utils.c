@@ -6,7 +6,7 @@
 /*   By: psotto-m <psotto-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 19:11:07 by psotto-m          #+#    #+#             */
-/*   Updated: 2023/04/28 17:05:40 by psotto-m         ###   ########.fr       */
+/*   Updated: 2023/10/08 17:06:43 by psotto-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ int	ft_atoi(char *s, t_dinner *dinner)
 		if (*s == '-')
 			error_handling(3, dinner);
 		s++;
-	}	
+	}
 	while (*s && *s >= '0' && *s <= '9')
 	{
 		num = num * 10 + (*s - '0');

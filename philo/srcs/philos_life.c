@@ -6,7 +6,7 @@
 /*   By: psotto-m <psotto-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 18:37:55 by psotto-m          #+#    #+#             */
-/*   Updated: 2023/04/29 17:37:38 by psotto-m         ###   ########.fr       */
+/*   Updated: 2023/10/08 17:06:58 by psotto-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void	death_clock(t_dinner	*dinner)
 			}
 			pthread_mutex_unlock(&dinner->meal_time);
 			i++;
-		}	
+		}
 		if (death_helper(dinner))
 			break ;
 	}
